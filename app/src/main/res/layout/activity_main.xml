@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CDDC39"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="229dp"
+            android:layout_height="122dp"
+            android:padding="8dp"
+            android:src="@drawable/rabugento" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#C31205"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:text="MENU"
+            android:background="@color/white"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_hamburger"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hamburger"
+            android:minWidth="60dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:src="@drawable/hamburger"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantidade: "
+            android:background="#C31205"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Edit_quantidade_hamburger"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:text="0"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/text_preco_hamburger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2000Kz"
+            android:layout_marginStart="30dp"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_cachorro"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cachorro"
+            android:minWidth="60dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:src="@drawable/cachorro"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantidade: "
+            android:background="#C31205"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Edit_quantidade_cachorro"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:text="0"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/text_preco_pao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000Kz"
+            android:layout_marginStart="30dp"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_gelado"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gelado"
+            android:minWidth="60dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:src="@drawable/gelado"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantidade: "
+            android:background="#C31205"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Edit_quantidade_gelado"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:text="0"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/text_preco_chocolate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="750Kz"
+            android:layout_marginStart="30dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_refrigerante"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refrigerante"
+            android:minWidth="60dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:src="@drawable/refrigerantes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantidade: "
+            android:background="#C31205"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Edit_quantidade_refrigerante"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:text="0"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/text_preco_refrigerante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="600Kz"
+            android:layout_marginStart="30dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_agua"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Água"
+            android:minWidth="60dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:src="@drawable/agua"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantidade: "
+            android:background="#C31205"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Edit_quantidade_agua"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:text="0"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/text_preco_agua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200Kz"
+            android:layout_marginStart="30dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_pedido"
+        app:backgroundTint="@color/my_primary"
+        android:text="REALIZAR PEDIDO"/>
+
+
+</LinearLayout>
+
+
